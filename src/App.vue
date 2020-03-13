@@ -7,7 +7,7 @@
         <el-button @click="drawer=true" class="add-todo-btn" circle icon="el-icon-plus" slot="reference"/>
         <el-drawer
                 class="drawer-add-todo"
-                size="18%"
+                size="25%"
                 title="JUST DO IT!"
                 direction="ttb"
                 :visible.sync="drawer"
