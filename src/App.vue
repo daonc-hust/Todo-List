@@ -7,7 +7,7 @@
         <el-button @click="drawer=true" class="add-todo-btn" circle icon="el-icon-plus" slot="reference"/>
         <el-drawer
                 class="drawer-add-todo"
-                size="25%"
+                size="30%"
                 title="JUST DO IT!"
                 direction="ttb"
                 :visible.sync="drawer"
@@ -137,6 +137,6 @@
 
   .todo-box {
     width: 600px;
-    margin: 180px auto 0;
+    margin: 8% auto 0;
   }
 </style>

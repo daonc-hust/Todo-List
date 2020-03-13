@@ -1,15 +1,19 @@
 {
   "name": "todo-list",
+  "homepage": "http://daonc-hust.github.io/todo-list",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "core-js": "^3.6.4",
     "element-ui": "^2.4.5",
+    "gh-pages": "^2.2.0",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
     "vue": "^2.6.11",
